@@ -19,8 +19,8 @@ export PS4='+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }'
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 BASE_DIR="$DIR/.."
 
-git clone --single-branch --branch rgb-display  git@github.com:ModusCreateOrg/genus.git
-git clone --single-branch --branch rgb-display git@github.com:ModusCreateOrg/creative-engine.git
+git clone --single-branch --branch rgb-display  https://github.com/ModusCreateOrg/genus.git
+git clone --single-branch --branch rgb-display https://github.com/ModusCreateOrg/creative-engine.git
 
 cd genus/
 ln -s ../creative-engine ./creative-engine
